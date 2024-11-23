@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Label new issue as "To Do"
-        uses: actions-ecosystem/action-assign@v1
+        uses: actions-ecosystem/action-assign@v2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           assignees: "KellamA" # Replace X with the GitHub username of the team member
